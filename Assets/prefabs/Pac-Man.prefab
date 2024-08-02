@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pac-Man
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8425424cd87600b46917035e888bac9e, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: abf6627b3840abd4f86d5654e53ecbf4, type: 3}
+    - target: {fileID: 5866666021909216657, guid: 8425424cd87600b46917035e888bac9e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 721ebb7c70bb9014da43aa77bf987e2f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74,6 +82,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8425424cd87600b46917035e888bac9e, type: 3}
       insertIndex: -1
       addedObject: {fileID: -3712827566339493998}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8425424cd87600b46917035e888bac9e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4444563866595375076}
   m_SourcePrefab: {fileID: 100100000, guid: 8425424cd87600b46917035e888bac9e, type: 3}
 --- !u!1 &6214895034869572341 stripped
 GameObject:
@@ -111,5 +122,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4e3ef624d4200642b8ee25a4d4d0012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementInput: {x: 0, y: 0}
+  cameraInput: {x: 0, y: 0}
+  cameraInputX: 0
+  cameraInputY: 0
+  verticalInput: 0
+  horizentalInput: 0
+--- !u!114 &4444563866595375076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214895034869572341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b938f7eff47c04c4e9ad4b8b63bc38ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
